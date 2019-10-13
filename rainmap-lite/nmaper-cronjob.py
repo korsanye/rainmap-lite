@@ -25,9 +25,9 @@ OUTPUT_PATH = os.path.normpath("%s/nmaper/static/results" % os.getcwd()).replace
 
 def find_nmap():
     if os.name == "nt":
-        nmap_path = distutils.spawn.find_executable("nmap.exe", os.environ["PROGRAMFILES(X86)"]+"\Nmap")
+        nmap_path = distutils.spawn.find_executable("nmap")
         if not(nmap_path):
-            nmap_path = distutils.spawn.find_executable("nmap.exe", os.environ["PROGRAMFILES"]+"\Nmap")
+            nmap_path = distutils.spawn.find_executable("nmap")
     else:
         nmap_path = distutils.spawn.find_executable("nmap","/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin")
 
