@@ -16,7 +16,33 @@ Unlike it's predecessor [1], Rainmap-lite does not require special services (Rab
 * Share results with your team.
 
 ## How To Install
+* Open PentestBox console and Download the code from this repository
 <pre>git clone https://github.com/korsanye/rainmap-lite.git</pre>
+<pre>cd rainmap-lite/rainmap-lite</pre>
+* Setup the requirements
+<pre>python -m pip install -r requirements.txt</pre>
+* Setup the requirements
+<pre>python -m pip install -r requirements.txt</pre>
+<pre>Edit file "nmaper-cronjob.py" to Update BASE_URL, SMTP_USER, SMTP_PASS, SMTP_SERVER and SMTP_PORT with your base URL and SMTP credentials to receive email alerts.</pre>
+* Configure Gmail to receive scan reports in email
+<pre>sign in to your gmail</pre>
+<pre>go to -> settings -> Forwarding and POP/IMAP -> scroll down to IMAP access: then check Enable IMAP and save changes</pre>
+<pre>go to -> https://myaccount.google.com/security and scroll down to "Less secure app access" and "turn on access"</pre>
+<pre>SMTP_USER is your email  and SMTP_PASS is your gmail password </pre>
+* Create the database schema
+<pre>python manage.py migrate</pre>
+* Load the default scanning profiles data
+<pre>python manage.py loaddata nmapprofiles</pre>
+* create your admin username and password
+<pre>python manage.py createsuperuser</pre>
+* Run the app
+<pre>python manage.py runserver 127.0.0.1:8000</pre>
+<pre>go to browser and open link http://127.0.0.1:8000/ and sign in with your admin account and start scan. just type the url or ip that you want to scan and insert your gmail to receive the reports and select the scan type and hit button scan.. now you should see message say "Your scan has been added to the database!" </pre>
+* Finaly
+<pre>back to the console and open new console tap</pre>
+<pre>cd rainmap-lite/rainmap-lite</pre>
+<pre>python nmaper-cronjob.py</pre>
+<pre>wait for the scan is finished and you will receive email with report</pre>
 
 ## Screenshots
 * Responsive interface
