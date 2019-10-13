@@ -15,13 +15,8 @@ Unlike it's predecessor [1], Rainmap-lite does not require special services (Rab
 * Easy to install/set up.
 * Share results with your team.
 
-This project is still in beta version. Any feedback, bug reports and PRs are greatly appreciated!
-
-## Demo
-https://youtu.be/3oNegHPBd3o
-
-## Documentation
-You can find all the documentation related to this project on the [Wiki](https://github.com/cldrn/rainmap-lite/wiki/ "Rainmap Lite Documentation")
+## How To Install
+<pre>git clone https://github.com/korsanye/rainmap-lite.git</pre>
 
 ## Screenshots
 * Responsive interface
