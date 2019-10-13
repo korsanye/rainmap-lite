@@ -5,6 +5,8 @@ Unlike it's predecessor [1], Rainmap-lite does not require special services (Rab
 
 [1] Rainmap - https://nmap.org/rainmap/
 
+## This repository was modified to work with PentestBox environment in Windows.
+
 ## Features
 * Easily launch Nmap scans with a few clicks.
 * Responsive interface runs smoothly from your phone/tablet. 
