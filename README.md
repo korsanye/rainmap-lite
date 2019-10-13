@@ -25,16 +25,16 @@ You can find all the documentation related to this project on the [Wiki](https:/
 
 ## Screenshots
 * Responsive interface
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/rainmap-lite-1.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-0.png" />
 * Customizable
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-2.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-2.png" />
 * Scanning profiles
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-3.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-3.png" />
 * Site Administration allows managements of users, scanning profiles and scans
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-4.png" />
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-5.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-4.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-5.png" />
 * Cron based
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-6.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-6.png" />
 * Results delivered by email
-<img style="float:center;width:80%" src="https://raw.githubusercontent.com/cldrn/rainmap-lite/master/screenshots/rainmap-lite-7.png" />
+<img style="float:center;width:80%" src="https://raw.githubusercontent.com/korsanye/rainmap-lite/master/screenshots/rainmap-lite-7.png" />
 
